@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  ul,
+  ol {
+    padding: 0;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font: inherit;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+    border: none;
+    outline: transparent;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    background-color: transparent;
+    outline: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  address {
+    font-style: inherit;
+  }
+  
+  @media (max-width: 992px) {
+    button,
+    a,
+    input,
+    textarea {
+      cursor: none;
+    }
+  }
